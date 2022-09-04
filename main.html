@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>TodoList</title>
+
+        <!-- css, js 외부에서 불러옴 -->
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/javascript/dark.js"></script>
+        <script src="/javascript/function.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <h2>TodoList</h2>
+        <hr>
+
+        <!-- 사용자로부터 할 일을 입력 받음 -->
+        <input id="item" class="form-control" type="text" placeholder="Input new todo">
+        <button id="newBt" type="button" class="bt-info" onclick="addItem()">New Entry</button>
+        
+
+        <!-- 다크모드 버튼 -->
+        <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);">
+        
+        <hr>
+
+        <!-- 리스트 -->
+        <ul id="todolist" class="list-group"></ul>
+    </body>
+</html>

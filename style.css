@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    background-color: antiquewhite;
+    border: 3px solid rgb(27, 27, 73);
+    border-radius: 4px;
+}
+
+#item {
+    width: 300px;
+    height: 30px;
+}
+
+#night_day, #newBt {
+    width: 100px;
+    height: 37px;
+    background-color: rgb(27, 27, 73);
+    color: antiquewhite;
+    border-radius: 4px;
+}
+
+.close {
+    width: 50px;
+    height: 25px;
+    float: right;
+    background-color: antiquewhite;
+    color: rgb(27, 27, 73);
+    border: none;
+}
+
+
+ul {
+    width: 600;
+    height: 30px;
+    font-size: 15px;
+    list-style: none;
+    padding-left: 0;
+    padding-right: 10px;
+    color: black;
+}
+
+li {
+    line-height: 30px;
+    margin: 10px 0px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
